@@ -22,7 +22,7 @@
 #### PING
 ![201807160](ImagenesGit/ping201807160.jpeg "PING")
 #### Protocolo IP
-![IP201807160](ImagenesGit/Ipconfig201807160.jpeg "IP")
+![IP201807160](ImagenesGit/ipconfig201807160.jpeg "IP")
 
 ## Configuración del Software de VPN elegido
 - El software para la conexion de de VPN se utilizao OpenVPN https://openvpn.net/
