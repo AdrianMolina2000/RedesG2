@@ -12,7 +12,7 @@
 ###### -sudo apt-get install wget 
 ###### -sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
 ###### -sudo bash openvpn-install.sh
-##### agregar nuevo cliente: 
+##### Agregar nuevo cliente: 
 ###### -sudo bash openvpn-install.sh
 ###### -sudo -i
 ###### -cp name.ovpn /home/
