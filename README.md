@@ -8,6 +8,7 @@
 ###### -sudo apt-get update
 ###### -sudo apt-get upgrade
 ###### -----
+####  Instalar wget y openvpn:
 ###### -wget version 
 ###### -sudo apt-get install wget 
 ###### -sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
