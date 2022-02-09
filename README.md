@@ -1,7 +1,8 @@
 # Tarea 3
 
 ## Configuración de la red privada
-
+#### Se desactivo el firewall para configurar la red
+![firewall](ImagenesGit/image.png "firewall")
 ## Conexión PING y de la configuración del protocolo IP (ipconfig/ifconfig)
 ### Pablo Daniel Rivas Marroquin, 201901510
 #### PING
