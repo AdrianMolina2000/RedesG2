@@ -25,7 +25,7 @@
 ## Configuración del Software de VPN elegido
 
 ## Integrantes del grupo IAM
-![GRUPO](ImagenesGit/IAM.png "IAM")
+![GRUPO](ImagenesGit/AIM.png "IAM")
 ## Creación y configuración de la instancia en la plataforma cloud
 Maquina Virtual
 ![VM](ImagenesGit/VM.png "VM")
