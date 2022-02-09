@@ -1,34 +1,41 @@
 # Tarea 3
+### Integrantes
+|Carne | Nombre |
+|-----|-----|
+|201901510| Pablo Daniel Rivas Marroquin|
+|201902850 |Adrian Samuel Molina Cabrera| 
+|201902934 |German Jose Paz Cordon| 
+|201807160 | Saul Absalon Barillas Argueta| 
 
 ## Configuración de la red privada
 #### Se desactivo el firewall para configurar la red
 ![firewall](ImagenesGit/image.png "firewall")
-#### Se utilizaron los siguientes comandos: 
-###### instalamos open vpn dentro de la maquina virtual: 
-###### -sudo apt-get update
-###### -sudo apt-get upgrade
-###### -----
-####  Instalar wget y openvpn:
-###### -wget version 
-###### -sudo apt-get install wget 
-###### -sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
-###### -sudo bash openvpn-install.sh
-##### Agregar nuevo cliente: 
-###### -sudo bash openvpn-install.sh
-###### -sudo -i
-###### -cp name.ovpn /home/
-###### -exit 
+#### Comandos Utilizados
+instalamos open vpn dentro de la maquina virtual: 
+-sudo apt-get update
+-sudo apt-get upgrade
+Instalar wget y openvpn:
+-wget version 
+-sudo apt-get install wget 
+-sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
+-sudo bash openvpn-install.sh
+Agregar nuevo cliente: 
+-sudo bash openvpn-install.sh
+-sudo -i
+-cp name.ovpn /home/
+-exit 
 ## Conexión PING y de la configuración del protocolo IP (ipconfig/ifconfig)
-### Pablo Daniel Rivas Marroquin, 201901510
-#### PING
-![201901510](ImagenesGit/ping201901510.png "PING")
-#### Protocolo IP
-![IP201901510](ImagenesGit/Ipconfig201901510.png "IP")
+
 ### Adrian Samuel Molina Cabrera, 201902850
 #### PING
 ![201903850](ImagenesGit/ping201903850.png "PING")
 #### Protocolo IP
 ![IP201903850](ImagenesGit/Ipconfig201903850.png "IP")
+### Pablo Daniel Rivas Marroquin, 201901510
+#### PING
+![201901510](ImagenesGit/ping201901510.png "PING")
+#### Protocolo IP
+![IP201901510](ImagenesGit/Ipconfig201901510.png "IP")
 ### German Jose Paz Cordon, 201902934
 #### PING
 ![201902934](ImagenesGit/ping201902934.png "PING")
