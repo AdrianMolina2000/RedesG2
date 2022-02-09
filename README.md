@@ -12,18 +12,20 @@
 ![firewall](ImagenesGit/image.png "firewall")
 #### Comandos Utilizados
 instalamos open vpn dentro de la maquina virtual: 
--sudo apt-get update
--sudo apt-get upgrade
+```
+- sudo apt-get update
+- sudo apt-get upgrade
 Instalar wget y openvpn:
--wget version 
--sudo apt-get install wget 
--sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
--sudo bash openvpn-install.sh
+- wget version 
+- sudo apt-get install wget 
+- sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
+- sudo bash openvpn-install.sh
 Agregar nuevo cliente: 
--sudo bash openvpn-install.sh
--sudo -i
--cp name.ovpn /home/
--exit 
+- sudo bash openvpn-install.sh
+- sudo -i
+- cp name.ovpn /home/
+- exit 
+```
 ## Conexión PING y de la configuración del protocolo IP (ipconfig/ifconfig)
 
 ### Adrian Samuel Molina Cabrera, 201902850
