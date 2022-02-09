@@ -23,6 +23,9 @@
 #### Protocolo IP
 
 ## Configuración del Software de VPN elegido
+- El software para la conexion de de VPN se utilizao OpenVPN https://openvpn.net/
+- Una vez instalado se importa el archivo .opvn
+- Luego de que sea importado el archivo se conecta a la VPN
 
 ## Integrantes del grupo IAM
 ![GRUPO](ImagenesGit/AIM.png "IAM")
