@@ -3,6 +3,21 @@
 ## Configuración de la red privada
 #### Se desactivo el firewall para configurar la red
 ![firewall](ImagenesGit/image.png "firewall")
+### Se utilizaron los siguientes comandos: 
+-install open vpn dentro de la maquina virtual 
+-sudo apt-get update
+-sudo apt-get upgrade
+-----
+-wget version 
+-sudo apt-get install wget 
+-sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
+-sudo bash openvpn-install.sh
+
+-agregar nuevo cliente 
+-sudo bash openvpn-install.sh
+-sudo -i
+-cp name.ovpn /home/
+-exit 
 ## Conexión PING y de la configuración del protocolo IP (ipconfig/ifconfig)
 ### Pablo Daniel Rivas Marroquin, 201901510
 #### PING
