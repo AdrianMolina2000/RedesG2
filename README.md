@@ -5,7 +5,7 @@
 ## Conexión PING y de la configuración del protocolo IP (ipconfig/ifconfig)
 ### Pablo Daniel Rivas Marroquin, 201901510
 #### PING
-![201901510] (/ImagenesGit/ping201901510.png)
+![201901510] (https://github.com/AdrianMolina2000/RedesT1/blob/main/ImagenesGit/ping201901510.png)
 #### Protocolo IP
 ### Adrian Samuel Molina Cabrera, 201902850
 #### PING
