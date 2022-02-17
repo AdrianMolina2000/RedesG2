@@ -31,7 +31,7 @@ NUMERO_IP: 192.168.12.10
 ```
 NUMERO_IP: 192.168.12.20
 ```
-![201902850_VPC](img/201902850_VPC.png "VPC")
+![201902850_VPC](img/201902850_vpc.png "VPC")
 ### Saul Absalon Barillas Argueta, 201807160
 ```
 NUMERO_IP: 192.168.12.30
@@ -41,7 +41,7 @@ NUMERO_IP: 192.168.12.30
 ```
 NUMERO_IP: 192.168.12.40
 ```
-![201902934_VPC](img/201902934_VPC.png "VPC")
+![201902934_VPC](img/201902934_vpc.png "VPC")
 
 ## Configuración de las nubes
 
