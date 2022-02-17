@@ -82,7 +82,7 @@ NUMERO_IP: 192.168.12.40
 ### Pablo Daniel Rivas Marroquin, 201901510
 ![201901510_ping](img/201901510_ping.jpeg "ping")
 ### Adrian Samuel Molina Cabrera, 201903850
-![201902850_ping](img/201902850_ping.png "ping")
+![201902850_ping](img/201903850_ping.png "ping")
 ### Saul Absalon Barillas Argueta, 201807160
 ![201807160_ping](img/201807160_ping.png "ping")
 ### German Jose Paz Cordon, 201902934
