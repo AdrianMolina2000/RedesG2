@@ -6,7 +6,7 @@
 |201901510| Pablo Daniel Rivas Marroquin|
 |201902850 |Adrian Samuel Molina Cabrera| 
 |201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon
-|201807160 | Saul Absalon Barillas Argueta| 
+|201807160 | Saul Absalon Barillas Argueta| https://github.com/SaulB10
 
 ## Configuración de la red privada
 #### Se desactivo el firewall para configurar la red
