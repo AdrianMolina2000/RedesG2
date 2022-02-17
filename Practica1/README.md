@@ -11,7 +11,7 @@
 
 ## Configuración de las VPCs
 ![firewall](ImagenesGit/image.png "firewall")
-```
+
 ## Configuración de las nubes
 
 ### Pablo Daniel Rivas Marroquin, 201901510
