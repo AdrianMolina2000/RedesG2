@@ -1,16 +1,47 @@
 # Practica 1
 ---------------
 ### Integrantes
-|Carne | Nombre | Perfil
+|Carne | Nombre | Perfil |
 |-----|-----|-----|
-|201901510| Pablo Daniel Rivas Marroquin| https://github.com/PabloRivas201901510
-|201902850 |Adrian Samuel Molina Cabrera| https://github.com/AdrianMolina2000
-|201807160 | Saul Absalon Barillas Argueta| https://github.com/SaulB10
-|201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon
+|201901510| Pablo Daniel Rivas Marroquin| https://github.com/PabloRivas201901510 |
+|201902850 |Adrian Samuel Molina Cabrera| https://github.com/AdrianMolina2000 |
+|201807160 | Saul Absalon Barillas Argueta| https://github.com/SaulB10 |
+|201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon |
 
 
 ## Configuración de las VPCs
-![firewall](ImagenesGit/image.png "firewall")
+| Posición | Nombre | Numero IP |
+|-----|-----|-----|
+|Coordinador| Pablo Daniel Rivas Marroquin| 192.168.12.10 |
+|Estudiante 1 |Adrian Samuel Molina Cabrera| 192.168.12.20 |
+|Estudiante 2 | Saul Absalon Barillas Argueta| 192.168.12.30 |
+|Estudiante 3 |German Jose Paz Cordon| 192.168.12.40 |
+```
+192.168.12.1  = GATEWAY
+255.255.255.0  = MASCARA
+
+ip “NUMERO_IP” “NUMERO_MASCARA_SUBRED” “GATEWAY”
+```
+### Pablo Daniel Rivas Marroquin, 201901510
+```
+NUMERO_IP: 192.168.12.10
+```
+![201901510_VPC](img/201901510_VPC.jpeg "VPC")
+### Adrian Samuel Molina Cabrera, 201902850
+```
+NUMERO_IP: 192.168.12.20
+```
+![201902850_VPC](img/201902850_VPC.png "VPC")
+### Saul Absalon Barillas Argueta, 201807160
+```
+NUMERO_IP: 192.168.12.30
+```
+![201807160_VPC](img/201807160_VPC.png "VPC")
+### German Jose Paz Cordon, 201902934
+```
+NUMERO_IP: 192.168.12.40
+```
+![201902934_VPC](img/201902934_VPC.png "VPC")
 
 ## Configuración de las nubes
 
@@ -48,4 +79,12 @@
 ![201902934_Saul](img/201902934_saul.png "PING")
 
 ## Pings entre los hosts
+### Pablo Daniel Rivas Marroquin, 201901510
+![201901510_ping](img/201901510_ping.jpeg "ping")
+### Adrian Samuel Molina Cabrera, 201902850
+![201902850_ping](img/201902850_ping.png "ping")
+### Saul Absalon Barillas Argueta, 201807160
+![201807160_ping](img/201807160_ping.png "ping")
+### German Jose Paz Cordon, 201902934
+![201902934_ping](img/201902934_ping.png "ping")
 
