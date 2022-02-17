@@ -5,7 +5,7 @@
 |-----|-----|
 |201901510| Pablo Daniel Rivas Marroquin|
 |201902850 |Adrian Samuel Molina Cabrera| 
-|201902934 |German Jose Paz Cordon| 
+|201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon
 |201807160 | Saul Absalon Barillas Argueta| 
 
 ## Configuración de la red privada
