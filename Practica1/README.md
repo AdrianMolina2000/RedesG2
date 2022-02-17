@@ -5,63 +5,47 @@
 |-----|-----|-----|
 |201901510| Pablo Daniel Rivas Marroquin| https://github.com/PabloRivas201901510
 |201902850 |Adrian Samuel Molina Cabrera| https://github.com/AdrianMolina2000
-|201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon
 |201807160 | Saul Absalon Barillas Argueta| https://github.com/SaulB10
+|201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon
 
-## Configuración de la red privada
-#### Se desactivo el firewall para configurar la red
+
+## Configuración de las VPCs
 ![firewall](ImagenesGit/image.png "firewall")
-#### Comandos Utilizados
-instalamos open vpn dentro de la maquina virtual: 
 ```
-- sudo apt-get update
-- sudo apt-get upgrade
-Instalar wget y openvpn:
-- wget version 
-- sudo apt-get install wget 
-- sudo wget https://cubaelectronica.com/OpenVPN/openvpn-install.sh
-- sudo bash openvpn-install.sh
-Agregar nuevo cliente: 
-- sudo bash openvpn-install.sh
-- sudo -i
-- cp name.ovpn /home/
-- exit 
-```
-## Conexión PING y de la configuración del protocolo IP (ipconfig/ifconfig)
+## Configuración de las nubes
+
+### Pablo Daniel Rivas Marroquin, 201901510
+##### Conexion con Adrian
+![201901510_Adrian](img/201901510_Adrian.png "PING")
+##### Conexion con Saul
+![201901510_Saul](img/201901510_Saul.png "PING")
+##### Conexion con German
+![201901510_German](img/201901510_German.png "PING")
 
 ### Adrian Samuel Molina Cabrera, 201902850
-#### PING
-![201903850](ImagenesGit/ping201903850.png "PING")
-#### Protocolo IP
-![IP201903850](ImagenesGit/Ipconfig201903850.png "IP")
-### Pablo Daniel Rivas Marroquin, 201901510
-#### PING
-![201901510](ImagenesGit/ping201901510.png "PING")
-#### Protocolo IP
-![IP201901510](ImagenesGit/Ipconfig201901510.png "IP")
-### German Jose Paz Cordon, 201902934
-#### PING
-![201902934](ImagenesGit/ping201902934.png "PING")
-#### Protocolo IP
-![IP201902934](ImagenesGit/Ipconfig201902934.png "IP")
+##### Conexion con Pablo
+![201903850_Pablo](img/201903850_pablo.png "PING")
+##### Conexion con Saul
+![201903850_Saul](img/201903850_saul.png "PING")
+##### Conexion con German
+![201903850_German](img/201903850_german.png "PING")
+
+
 ### Saul Absalon Barillas Argueta, 201807160
-#### PING
-![201807160](ImagenesGit/ping201807160.jpeg "PING")
-#### Protocolo IP
-![IP201807160](ImagenesGit/ipconfig201807160.jpeg "IP")
+##### Conexion con Pablo
+![201807160_Pablo](img/201807160_Pablo.png "PING")
+##### Conexion con Saul
+![201807160_Adrian](img/201807160_Saul.png "PING")
+##### Conexion con German
+![201807160_German](img/201807160_German.png "PING")
 
-## Configuración del Software de VPN elegido
-- El software para la conexion de de VPN se utilizao OpenVPN https://openvpn.net/
-- Una vez instalado se importa el archivo .opvn
-- Luego de que sea importado el archivo se conecta a la VPN
+### German Jose Paz Cordon, 201902934
+##### Conexion con Pablo
+![201902934_Pablo](img/201902934_pablo.png "PING")
+##### Conexion con Saul
+![201902934_Adrian](img/201902934_saul.png "PING")
+##### Conexion con German
+![201902934_Saul](img/201902934_saul.png "PING")
 
-## Integrantes del grupo IAM
-![GRUPO](ImagenesGit/AIM.png "IAM")
-## Creación y configuración de la instancia en la plataforma cloud
-Maquina Virtual
-![VM](ImagenesGit/VM.png "VM")
-Información Basica
-![VM1](ImagenesGit/VM1.png "Informacion Basica")
-Configuración de la maquina
-![VM2](ImagenesGit/vm2.png "Configuracion de la Maquina")
+## Pings entre los hosts
 
