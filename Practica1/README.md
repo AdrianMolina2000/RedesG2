@@ -1,8 +1,8 @@
 # Practica 1
 ---------------
 ### Integrantes
-|Carne | Nombre |
-|-----|-----|
+|Carne | Nombre | Perfil
+|-----|-----|-----|
 |201901510| Pablo Daniel Rivas Marroquin|
 |201902850 |Adrian Samuel Molina Cabrera| 
 |201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon
