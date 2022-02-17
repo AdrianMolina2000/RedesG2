@@ -86,5 +86,5 @@ NUMERO_IP: 192.168.12.40
 ### Saul Absalon Barillas Argueta, 201807160
 ![201807160_ping](img/201807160_ping.png "ping")
 ### German Jose Paz Cordon, 201902934
-![201902934_ping](img/201902934_ping.png "ping")
+![201902934_ping](img/201902934_ping.jpg "ping")
 
