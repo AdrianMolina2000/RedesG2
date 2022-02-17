@@ -16,11 +16,11 @@
 
 ### Pablo Daniel Rivas Marroquin, 201901510
 ##### Conexion con Adrian
-![201901510_Adrian](img/201901510_Adrian.png "PING")
+![201901510_Adrian](img/201901510_Adrian.jpeg "PING")
 ##### Conexion con Saul
-![201901510_Saul](img/201901510_Saul.png "PING")
+![201901510_Saul](img/201901510_Saul.jpeg "PING")
 ##### Conexion con German
-![201901510_German](img/201901510_German.png "PING")
+![201901510_German](img/201901510_German.jpeg "PING")
 
 ### Adrian Samuel Molina Cabrera, 201902850
 ##### Conexion con Pablo
@@ -34,8 +34,8 @@
 ### Saul Absalon Barillas Argueta, 201807160
 ##### Conexion con Pablo
 ![201807160_Pablo](img/201807160_Pablo.png "PING")
-##### Conexion con Saul
-![201807160_Adrian](img/201807160_Saul.png "PING")
+##### Conexion con Adrian
+![201807160_Adrian](img/201807160_Adrian.png "PING")
 ##### Conexion con German
 ![201807160_German](img/201807160_German.png "PING")
 
