@@ -9,6 +9,170 @@
 |201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon |
 
 
+## TOPOLOGIA 1
+![](img/TP1.png "TP1")
+
+### ESW1
+
+#### VLANS 
+![](img/ESW1_VLANS.png "VLANS")
+
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode server
+vtp version 2
+```
+![](img/ESW1_VTP.png "VTP")
+
+
+#### PUERTOS
+```
+conf t
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+```
+![](img/ESW1_TR.png "Puertos")
+
+
+### ESW2
+
+#### VLANS 
+![](img/ESW2_VLANS.png "VLANS")
+
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode server
+vtp version 2
+```
+![](img/ESW2_VTP.png "VTP")
+
+
+#### PUERTOS
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 10
+exit
+exit
+
+conf t
+int f1/1
+switchport mode access
+switchport access vlan 30
+exit
+exit
+
+conf t
+int f1/2
+switchport mode access
+switchport access vlan 10
+exit
+exit
+
+conf t
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/4
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+sh vlan-sw
+sh int tr
+```
+![](img/ESW2_TR.png "Puertos")
+
+
+
+### ESW3
+
+#### VLANS 
+![](img/ESW3_VLANS.png "VLANS")
+
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode server
+vtp version 2
+```
+![](img/ESW3_VTP.png "VTP")
+
+
+#### PUERTOS
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 20
+exit
+exit
+
+conf t
+int f1/1
+switchport mode access
+switchport access vlan 40
+exit
+exit
+
+conf t
+int f1/2
+switchport mode access
+switchport access vlan 30
+exit
+exit
+
+conf t
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/4
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+sh vlan-sw
+sh int tr
+```
+![](img/ESW3_TR.png "Puertos")
+
+
 ## TOPOLOGIA 2
 ![](img/TP2.png "TP2")
 
