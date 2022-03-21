@@ -1,6 +1,6 @@
 # Practica 1
 ---------------
-### Integrantes
+## Integrantes
 |Carne | Nombre | Perfil |
 |-----|-----|-----|
 |201901510| Pablo Daniel Rivas Marroquin| https://github.com/PabloRivas201901510 |
@@ -9,82 +9,151 @@
 |201902934 |German Jose Paz Cordon| https://github.com/GermanJosePazCordon |
 
 
-## Configuración de las VPCs
-| Posición | Nombre | Numero IP |
-|-----|-----|-----|
-|Coordinador| Pablo Daniel Rivas Marroquin| 192.168.12.10 |
-|Estudiante 1 |Adrian Samuel Molina Cabrera| 192.168.12.20 |
-|Estudiante 2 | Saul Absalon Barillas Argueta| 192.168.12.30 |
-|Estudiante 3 |German Jose Paz Cordon| 192.168.12.40 |
-```
-192.168.12.1  = GATEWAY
-255.255.255.0  = MASCARA
+## TOPOLOGIA 2
+![](img/TP2.png "TP2")
 
-ip “NUMERO_IP” “NUMERO_MASCARA_SUBRED” “GATEWAY”
-```
-### Pablo Daniel Rivas Marroquin, 201901510
-```
-NUMERO_IP: 192.168.12.10
-```
-![201901510_VPC](img/201901510_VPC.jpeg "VPC")
-### Adrian Samuel Molina Cabrera, 201903850
-```
-NUMERO_IP: 192.168.12.20
-```
-![201903850_VPC](img/201903850_vpc.png "VPC")
-### Saul Absalon Barillas Argueta, 201807160
-```
-NUMERO_IP: 192.168.12.30
-```
-![201807160_VPC](img/201807160_VPC.png "VPC")
-### German Jose Paz Cordon, 201902934
-```
-NUMERO_IP: 192.168.12.40
-```
-![201902934_VPC](img/201902934_vpc.png "VPC")
+### ESW4
 
-## Configuración de las nubes
+#### VLANS 
+```
+conf t
+vlan 10
+name RRHH
+vlan 20
+name Informatica
+vlan 30
+name Contabilidad
+vlan 40
+name Ventas
+```
+![](img/ESW4_VLANS.png "VLANS")
 
-### Pablo Daniel Rivas Marroquin, 201901510
-##### Conexion con Adrian
-![201901510_Adrian](img/201901510_Adrian.jpeg "PING")
-##### Conexion con Saul
-![201901510_Saul](img/201901510_Saul.jpeg "PING")
-##### Conexion con German
-![201901510_German](img/201901510_German.jpeg "PING")
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode server
+vtp version 2
+```
+![](img/ESW4_VTP.png "VTP")
 
-### Adrian Samuel Molina Cabrera, 201903850
-##### Conexion con Pablo
-![201903850_Pablo](img/201903850_pablo.png "PING")
-##### Conexion con Saul
-![201903850_Saul](img/201903850_saul.png "PING")
-##### Conexion con German
-![201903850_German](img/201903850_german.png "PING")
+#### PUERTOS
+```
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
 
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
 
-### Saul Absalon Barillas Argueta, 201807160
-##### Conexion con Pablo
-![201807160_Pablo](img/201807160_Pablo.png "PING")
-##### Conexion con Adrian
-![201807160_Adrian](img/201807160_Adrian.png "PING")
-##### Conexion con German
-![201807160_German](img/201807160_German.png "PING")
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+```
+![](img/ESW4_TR.png "Puertos")
 
-### German Jose Paz Cordon, 201902934
-##### Conexion con Pablo
-![201902934_Pablo](img/201902934_pablo.png "PING")
-##### Conexion con Saul
-![201902934_Adrian](img/201902934_saul.png "PING")
-##### Conexion con German
-![201902934_Saul](img/201902934_saul.png "PING")
+#### STP
+```
+spanning-tree vlan 10 root primary
+spanning-tree vlan 20 root primary
+spanning-tree vlan 30 root primary
+spanning-tree vlan 40 root primary
+```
+![](img/ESW4_SP.png "STP")
 
-## Pings entre los hosts
-### Pablo Daniel Rivas Marroquin, 201901510
-![201901510_ping](img/201901510_ping.jpeg "ping")
-### Adrian Samuel Molina Cabrera, 201903850
-![201902850_ping](img/201903850_ping.png "ping")
-### Saul Absalon Barillas Argueta, 201807160
-![201807160_ping](img/201807160_ping.png "ping")
-### German Jose Paz Cordon, 201902934
-![201902934_ping](img/201902934_ping.jpg "ping")
+### ESW5
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode client
+vtp version 2
+```
+![](img/ESW5_VTP.png "VTP")
+
+#### PUERTOS
+```
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+```
+![](img/ESW5_TR.png "Puertos")
+
+#### VLANS
+![](img/ESW5_VLANS.png "Vlans")
+
+### ESW6
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode client
+vtp version 2
+```
+![](img/ESW6_VTP.png "VTP")
+
+#### PUERTOS
+```
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+```
+![](img/ESW6_TR.png "Puertos")
+
+#### VLANS
+![](img/ESW6_VLANS.png "Vlans")
+
+### ESW5
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp mode client
+vtp version 2
+```
+![](img/ESW7_VTP.png "VTP")
+
+#### PUERTOS
+```
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/3
+switchport mode acces
+switchport acces vlan 20
+```
+![](img/ESW7_TR.png "Puertos")
+
+#### VLANS
+![](img/ESW7_VLANS.png "Vlans")
 
