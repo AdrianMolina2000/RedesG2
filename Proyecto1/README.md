@@ -1,4 +1,4 @@
-# Practica 1
+# Practica 2
 ---------------
 ## Integrantes
 |Carne | Nombre | Perfil |
