@@ -463,7 +463,7 @@ int f1/4
 switchport mode trunk
 switchport trunk allowed vlan 1,10,20,30,40,1002-1005
 ```
-#### TOPOLOGIA1 :
+### TOPOLOGIA1 :
 #### CONFIGUARACION DEL VTP CLIENT
 ```
 conf t
@@ -571,7 +571,7 @@ switchport access vlan 30
 exit
 exit
 ```
-#### VPCS
+#### CONFIGURAR VPCS
 ```
 RRHH_1
 ip 192.168.21.10/24 255.255.255.0 192.168.21.1
@@ -605,12 +605,12 @@ sh interface trunk
 sh spanning-tree brief
 sh spanning-tree root
 ```
-   #### VPC
+   #### CONFIGURAR VPC
 ```
 ip 192.168.2X.30/24 192.168.2X.1
 save
 ```
-#### VTP
+#### CONFIGURAR VTP
 ```
 conf t
 vtp domain GRUPO2
@@ -621,7 +621,7 @@ exit
 sh vtp status
 write
 ```
-#### ESW9
+#### CONFIGURAR ESW9
 ```
 conf t
 int f1/0
@@ -643,7 +643,7 @@ exit
 exit
 write
 ```
-#### ESW8
+#### CONFIGURAR ESW8
 
 ```
 conf t
@@ -662,7 +662,7 @@ exit
 exit
 write
 ```
-#### ESW10
+#### CONFIGURAR ESW10
 ```
 conf t
 int f1/0
@@ -681,7 +681,7 @@ exit
 write
 ```
 
-#### ESW11
+#### CONFIGURAR ESW11
 
 ```
 conf t
@@ -700,3 +700,7 @@ exit
 exit
 write
 ```
+## Requerimientos GNS3:
+- Version **2.2.29**
+- Sistema operativo: **Windows 10 u 11**
+- Imagenes IOS : **Imagen de Ethernetswitch (Switch de Capa 3)** (porporcionada por el tutor)
