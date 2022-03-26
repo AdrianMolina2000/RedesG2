@@ -463,3 +463,240 @@ int f1/4
 switchport mode trunk
 switchport trunk allowed vlan 1,10,20,30,40,1002-1005
 ```
+#### TOPOLOGIA1 :
+#### CONFIGUARACION DEL VTP CLIENT
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp version 2
+vtp mode client
+exit
+sh vtp st
+write
+```
+#### CONEXION ENTRE ROUTERS EWS2 Y EW3
+```
+conf t
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/4
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+sh int tr
+write
+```
+#### CONEXION ENTRE ROUTERS - EWS1
+```
+conf t
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+conf t
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+
+sh int tr
+
+write
+```
+
+#### CONEXION ENTRE ROUTER -> VPC EWS2
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 10
+exit
+exit
+
+conf t
+int f1/1
+switchport mode access
+switchport access vlan 30
+exit
+exit
+
+conf t
+int f1/2
+switchport mode access
+switchport access vlan 10
+exit
+exit
+sh vlan-sw
+write
+```
+
+
+#### CONEXION ENTRE ROUTER -> VPC EWS3
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 20
+exit
+exit
+
+conf t
+int f1/1
+switchport mode access
+switchport access vlan 40
+exit
+exit
+
+conf t
+int f1/2
+switchport mode access
+switchport access vlan 30
+exit
+exit
+```
+#### VPCS
+```
+RRHH_1
+ip 192.168.21.10/24 255.255.255.0 192.168.21.1
+save
+
+CONTA_1
+ip 192.168.23.10/24 255.255.255.0 192.168.23.1
+save
+
+RRHH_2
+ip 192.168.21.20/24 255.255.255.0 192.168.21.1
+save
+
+CONTA_2
+ip 192.168.23.20/24 255.255.255.0 192.168.23.1
+save
+
+VENTAS_1
+ip 192.168.24.10/24 255.255.255.0 192.168.24.1
+save
+
+INFORMATICA
+ip 192.168.22.10/24 255.255.255.0 192.168.22.1
+save
+```
+### TOPOLOGIA 3:
+  #### SHOW
+```
+sh vlan-sw
+sh interface trunk
+sh spanning-tree brief
+sh spanning-tree root
+```
+   #### VPC
+```
+ip 192.168.2X.30/24 192.168.2X.1
+save
+```
+#### VTP
+```
+conf t
+vtp domain GRUPO2
+vtp password grupo2
+vtp version 2
+vtp mode client
+exit 
+sh vtp status
+write
+```
+#### ESW9
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 30
+exit
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+write
+```
+#### ESW8
+
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 40
+exit
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+write
+```
+#### ESW10
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 10
+exit
+int f1/2
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+int f1/4
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+write
+```
+
+#### ESW11
+
+```
+conf t
+int f1/0
+switchport mode access
+switchport access vlan 20
+exit
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+int f1/4
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+write
+```
