@@ -1,4 +1,4 @@
-# Practica 2
+# Proyecto 1
 ---------------
 ## Integrantes
 |Carne | Nombre | Perfil |
