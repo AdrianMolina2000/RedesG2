@@ -24,3 +24,7 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp1_c3.png "c3_tp1")
 ### Cloud4 topologia 1
 ![](img/tp1_c4.png "c4_tp1")
+
+### -Routers
+### R1 topologia 1
+![](img/tp1_r1.png "r1_tp1")
