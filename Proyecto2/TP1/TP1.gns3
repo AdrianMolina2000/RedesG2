@@ -1,0 +1,1088 @@
+{
+    "auto_close": true,
+    "auto_open": false,
+    "auto_start": false,
+    "drawing_grid_size": 25,
+    "grid_size": 75,
+    "name": "TP",
+    "project_id": "d06870f4-dcaa-4814-a76c-1bd9449bbfbc",
+    "revision": 9,
+    "scene_height": 1000,
+    "scene_width": 2000,
+    "show_grid": false,
+    "show_interface_labels": true,
+    "show_layers": false,
+    "snap_to_grid": false,
+    "supplier": null,
+    "topology": {
+        "computes": [],
+        "drawings": [
+            {
+                "drawing_id": "fe1816c5-6791-4daa-9b31-a6574ea2b3bf",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"155\"><text fill=\"#00a500\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.8/30 \n255.255.255.252</text></svg>",
+                "x": -179,
+                "y": -389,
+                "z": 2
+            },
+            {
+                "drawing_id": "d1f0bda2-168a-4254-887a-57204fa64787",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"155\"><text fill=\"#00a500\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.12/30 \n255.255.255.252</text></svg>",
+                "x": -179,
+                "y": 15,
+                "z": 2
+            },
+            {
+                "drawing_id": "6b14a746-af6e-46e2-ba39-77540949a100",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"78\"><text fill=\"#0055ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.1</text></svg>",
+                "x": -463,
+                "y": -316,
+                "z": 2
+            },
+            {
+                "drawing_id": "bdea4d04-b655-47e3-b0a7-c1244b04c6f1",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"78\"><text fill=\"#0055ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.9</text></svg>",
+                "x": -295,
+                "y": -291,
+                "z": 2
+            },
+            {
+                "drawing_id": "80e0746d-4c8f-41cd-9e8d-690f706e8d61",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"78\"><text fill=\"#0055ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.5</text></svg>",
+                "x": -475,
+                "y": -29,
+                "z": 2
+            },
+            {
+                "drawing_id": "3cf4623a-d533-4ebb-8a90-60538ab4518a",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#0055ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.13</text></svg>",
+                "x": -277,
+                "y": -72,
+                "z": 2
+            },
+            {
+                "drawing_id": "e4986e14-6b9e-400e-a9c9-3fdfd521e385",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#aa55ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.10</text></svg>",
+                "x": -7,
+                "y": -287,
+                "z": 2
+            },
+            {
+                "drawing_id": "9395a7b8-3780-40d0-9f58-4f11a5cc7947",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#aa55ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.14</text></svg>",
+                "x": -5,
+                "y": -76,
+                "z": 2
+            },
+            {
+                "drawing_id": "1f5c88ee-35f5-48d8-a740-f450f5772e88",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#0055ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.17</text></svg>",
+                "x": 179,
+                "y": -290,
+                "z": 2
+            },
+            {
+                "drawing_id": "4b3e65da-af48-4e44-808a-fe920e55b273",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"29\" width=\"89\"><text fill=\"#0055ff\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.21</text></svg>",
+                "x": 186,
+                "y": -54,
+                "z": 2
+            },
+            {
+                "drawing_id": "77aad364-35e6-4169-aacb-6a7cbb6f3103",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"155\"><text fill=\"#00a500\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.16/30 \n255.255.255.252</text></svg>",
+                "x": 201,
+                "y": -397,
+                "z": 2
+            },
+            {
+                "drawing_id": "96d1260c-aa34-4edf-9165-c64f813021a0",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"155\"><text fill=\"#00a500\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.8/30 \n255.255.255.252</text></svg>",
+                "x": -550,
+                "y": -402,
+                "z": 2
+            },
+            {
+                "drawing_id": "98b24a2f-c41e-439f-862f-1eac7a22f2c3",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"155\"><text fill=\"#00a500\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.20/30 \n255.255.255.252</text></svg>",
+                "x": 205,
+                "y": 9,
+                "z": 2
+            },
+            {
+                "drawing_id": "4da4a986-136b-44b2-9b2e-4410442e6c4b",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg height=\"50\" width=\"155\"><text fill=\"#00a500\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.2.0.4/30 \n255.255.255.252</text></svg>",
+                "x": -541,
+                "y": 10,
+                "z": 2
+            }
+        ],
+        "links": [
+            {
+                "filters": {},
+                "link_id": "e2c1405f-2aa3-42d2-845f-45f09bc31505",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 85,
+                            "y": 14
+                        },
+                        "node_id": "31ae48cb-d0ef-48b7-b648-c382c0c6f683",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": -2,
+                            "y": 2
+                        },
+                        "node_id": "82254b77-798e-4895-98f4-3c67fc412d63",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "0c4e3fd6-b3c0-4886-9c29-00cebf2baecc",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -59,
+                            "y": -9
+                        },
+                        "node_id": "31ae48cb-d0ef-48b7-b648-c382c0c6f683",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "TP2",
+                            "x": 159,
+                            "y": 40
+                        },
+                        "node_id": "c5696e88-19a6-44aa-8aa6-0464bd288743",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "e2863e22-5358-47a6-a687-d2bf1d6eb9e2",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 99,
+                            "y": -15
+                        },
+                        "node_id": "9f50c519-6cdf-48bb-8959-b03d19530ce2",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": -1,
+                            "y": 30
+                        },
+                        "node_id": "82254b77-798e-4895-98f4-3c67fc412d63",
+                        "port_number": 2
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "4bbff10f-4145-4157-8d35-79570ef8745d",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -67,
+                            "y": 26
+                        },
+                        "node_id": "9f50c519-6cdf-48bb-8959-b03d19530ce2",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "TP2",
+                            "x": 159,
+                            "y": 35
+                        },
+                        "node_id": "912383f5-d3e8-4347-a88d-564b7b01a349",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "4cb38e34-bc65-4864-bd84-37943924e5d8",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 74,
+                            "y": 8
+                        },
+                        "node_id": "82254b77-798e-4895-98f4-3c67fc412d63",
+                        "port_number": 1
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -106,
+                            "y": 17
+                        },
+                        "node_id": "b64575c6-92f6-4207-aa26-e697ab5ccbe5",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "4b910ff3-c098-4987-aab5-4f9c5d52f311",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e3",
+                            "x": 71,
+                            "y": 33
+                        },
+                        "node_id": "82254b77-798e-4895-98f4-3c67fc412d63",
+                        "port_number": 3
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": -110,
+                            "y": -20
+                        },
+                        "node_id": "b954930b-b571-4077-8e12-847d19f87ea6",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "218f0201-d4c7-46ed-9de6-daa459b65a84",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 80,
+                            "y": 21
+                        },
+                        "node_id": "b64575c6-92f6-4207-aa26-e697ab5ccbe5",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "TP3",
+                            "x": -8,
+                            "y": 55
+                        },
+                        "node_id": "fad9da8e-38e1-4c74-910f-2301ce417a54",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "d590d69c-a920-4f71-b53c-e7d4e309864b",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 82,
+                            "y": -5
+                        },
+                        "node_id": "b954930b-b571-4077-8e12-847d19f87ea6",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "TP3",
+                            "x": 0,
+                            "y": 38
+                        },
+                        "node_id": "4ae665ef-c3e1-47a5-8287-8803c76dda4f",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            }
+        ],
+        "nodes": [
+            {
+                "compute_id": "local",
+                "console": 5019,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 32,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Switch1",
+                    "x": -3,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Switch1",
+                "node_id": "82254b77-798e-4895-98f4-3c67fc412d63",
+                "node_type": "ethernet_switch",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "ports_mapping": [
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet0",
+                            "port_number": 0,
+                            "type": "dot1q",
+                            "vlan": 1
+                        },
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet1",
+                            "port_number": 1,
+                            "type": "dot1q",
+                            "vlan": 1
+                        },
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet2",
+                            "port_number": 2,
+                            "type": "dot1q",
+                            "vlan": 1
+                        },
+                        {
+                            "ethertype": "",
+                            "name": "Ethernet3",
+                            "port_number": 3,
+                            "type": "dot1q",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet4",
+                            "port_number": 4,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet5",
+                            "port_number": 5,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet6",
+                            "port_number": 6,
+                            "type": "access",
+                            "vlan": 1
+                        },
+                        {
+                            "name": "Ethernet7",
+                            "port_number": 7,
+                            "type": "access",
+                            "vlan": 1
+                        }
+                    ]
+                },
+                "symbol": ":/symbols/ethernet_switch.svg",
+                "template_id": "1966b864-93e7-32d5-965f-001384eec461",
+                "width": 72,
+                "x": -129,
+                "y": -191,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud1",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud1",
+                "node_id": "c5696e88-19a6-44aa-8aa6-0464bd288743",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN Wintun",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN TAP-Windows6",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "OpenVPN TAP-Windows6",
+                            "name": "OpenVPN TAP-Windows6",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "lport": 20000,
+                            "name": "TP2",
+                            "port_number": 1,
+                            "rhost": "10.8.0.3",
+                            "rport": 30000,
+                            "type": "udp"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -756,
+                "y": -297,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud2",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud2",
+                "node_id": "912383f5-d3e8-4347-a88d-564b7b01a349",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN Wintun",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN TAP-Windows6",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "OpenVPN TAP-Windows6",
+                            "name": "OpenVPN TAP-Windows6",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "lport": 20001,
+                            "name": "TP2",
+                            "port_number": 1,
+                            "rhost": "10.8.0.3",
+                            "rport": 30001,
+                            "type": "udp"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": -759,
+                "y": -92,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5003,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R1",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R1",
+                "node_id": "31ae48cb-d0ef-48b7-b648-c382c0c6f683",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 1,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c3640-ik9o3s-mz124-13.image",
+                    "image_md5sum": "6ac820d1a96743b2505cc854a271ed16",
+                    "iomem": 5,
+                    "mac_addr": "cc01.5468.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "slot1": "NM-1FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "17338727-6570-4d9d-9dae-59d5fc11a4f7",
+                "width": 66,
+                "x": -375,
+                "y": -284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5004,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R3",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R3",
+                "node_id": "9f50c519-6cdf-48bb-8959-b03d19530ce2",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 3,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c3640-ik9o3s-mz124-13.image",
+                    "image_md5sum": "6ac820d1a96743b2505cc854a271ed16",
+                    "iomem": 5,
+                    "mac_addr": "cc03.81f8.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "slot1": "NM-1FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "17338727-6570-4d9d-9dae-59d5fc11a4f7",
+                "width": 66,
+                "x": -376,
+                "y": -79,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud3",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud3",
+                "node_id": "fad9da8e-38e1-4c74-910f-2301ce417a54",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN Wintun",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN TAP-Windows6",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "OpenVPN TAP-Windows6",
+                            "name": "OpenVPN TAP-Windows6",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "lport": 50000,
+                            "name": "TP3",
+                            "port_number": 1,
+                            "rhost": "10.8.0.2",
+                            "rport": 40000,
+                            "type": "udp"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": 354,
+                "y": -297,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": null,
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 71,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Cloud4",
+                    "x": 45,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Cloud4",
+                "node_id": "4ae665ef-c3e1-47a5-8287-8803c76dda4f",
+                "node_type": "cloud",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "interfaces": [
+                        {
+                            "name": "Wi-Fi",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet2",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet1",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet8",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN Wintun",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "OpenVPN TAP-Windows6",
+                            "special": false,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet3",
+                            "special": true,
+                            "type": "ethernet"
+                        },
+                        {
+                            "name": "VMware Network Adapter VMnet4",
+                            "special": true,
+                            "type": "ethernet"
+                        }
+                    ],
+                    "ports_mapping": [
+                        {
+                            "interface": "OpenVPN TAP-Windows6",
+                            "name": "OpenVPN TAP-Windows6",
+                            "port_number": 0,
+                            "type": "ethernet"
+                        },
+                        {
+                            "lport": 50001,
+                            "name": "TP3",
+                            "port_number": 1,
+                            "rhost": "10.8.0.2",
+                            "rport": 40001,
+                            "type": "udp"
+                        }
+                    ],
+                    "remote_console_host": "",
+                    "remote_console_http_path": "/",
+                    "remote_console_port": 23,
+                    "remote_console_type": "none"
+                },
+                "symbol": ":/symbols/cloud.svg",
+                "template_id": "39e257dc-8412-3174-b6b3-0ee3ed6a43e9",
+                "width": 159,
+                "x": 362,
+                "y": -92,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5006,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R2",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R2",
+                "node_id": "b64575c6-92f6-4207-aa26-e697ab5ccbe5",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 2,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c3640-ik9o3s-mz124-13.image",
+                    "image_md5sum": "6ac820d1a96743b2505cc854a271ed16",
+                    "iomem": 5,
+                    "mac_addr": "cc02.7ad8.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "slot1": "NM-1FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "17338727-6570-4d9d-9dae-59d5fc11a4f7",
+                "width": 66,
+                "x": 102,
+                "y": -284,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": 5007,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 45,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "R4",
+                    "x": 17,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "R4",
+                "node_id": "b954930b-b571-4077-8e12-847d19f87ea6",
+                "node_type": "dynamips",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "auto_delete_disks": true,
+                    "aux": null,
+                    "chassis": "3640",
+                    "clock_divisor": 4,
+                    "disk0": 0,
+                    "disk1": 0,
+                    "dynamips_id": 4,
+                    "exec_area": 64,
+                    "idlemax": 500,
+                    "idlepc": "",
+                    "idlesleep": 30,
+                    "image": "c3640-ik9o3s-mz124-13.image",
+                    "image_md5sum": "6ac820d1a96743b2505cc854a271ed16",
+                    "iomem": 5,
+                    "mac_addr": "cc04.6b20.0000",
+                    "mmap": true,
+                    "nvram": 256,
+                    "platform": "c3600",
+                    "ram": 192,
+                    "slot0": "NM-1FE-TX",
+                    "slot1": "NM-1FE-TX",
+                    "slot2": null,
+                    "slot3": null,
+                    "sparsemem": true,
+                    "system_id": "FTX0945W0MY",
+                    "usage": ""
+                },
+                "symbol": ":/symbols/router.svg",
+                "template_id": "17338727-6570-4d9d-9dae-59d5fc11a4f7",
+                "width": 66,
+                "x": 104,
+                "y": -79,
+                "z": 1
+            }
+        ]
+    },
+    "type": "topology",
+    "variables": null,
+    "version": "2.2.29",
+    "zoom": 85
+}
