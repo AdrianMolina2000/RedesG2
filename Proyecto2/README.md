@@ -64,6 +64,7 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ### ESW1
 ![](img/tp2_tr.png "esw1_tp2")
 ### VLANS topologia 2
+![](img/tp2_vlan.png "vlan_tp2")
 ### Tabla resultante:
 |Subred | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast| No. de Hosts |
 |-----|-----|-----|-----|-----|-----|-----|
