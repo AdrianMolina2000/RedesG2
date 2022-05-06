@@ -87,4 +87,10 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp3_ventas1.png "info_tp3")
 
 ### Router
-![](img/tp3_router6.png "r6_tp2")
+![](img/tp3_router6.png "r6_tp3")
+### ESW2
+![](img/tp3_tr.png "esw2_tp3")
+### VLANS
+### Tabla resultante:
+|Subred | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast| No. de Hosts |
+|-----|-----|-----|-----|-----|-----|-----|
