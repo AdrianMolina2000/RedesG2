@@ -75,3 +75,13 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp3_cloud1.png "c1_tp3")
 ### Cloud2 topologia 3
 ![](img/tp3_cloud2.png "c2_tp3")
+
+### VPCS
+### -Informatica
+![](img/tp3_info1.png "info_tp3")
+### -Contabilidad
+![](img/tp3_conta1.png "info_tp3")
+### -RRHH
+![](img/tp3_rrhh1.png "info_tp3")
+### -Ventas
+![](img/tp3_ventas1.png "info_tp3")
