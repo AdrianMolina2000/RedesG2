@@ -28,3 +28,9 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ### -Routers
 ### R1 topologia 1
 ![](img/tp1_r1.png "r1_tp1")
+### R2 topologia 1
+![](img/tp1_r2.png "r2_tp1")
+### R3 topologia 1
+![](img/tp1_r3.png "r3_tp1")
+### R4 topologia 1
+![](img/tp1_r4.png "r4_tp1")
