@@ -1,0 +1,287 @@
+-- VENTAS --
+ip 192.168.24.129/26 192.168.24.190
+
+-- CONTABILIDAD --
+ip 192.168.24.65/26 192.168.24.126
+
+-- RRHH --
+ip 192.168.24.1/26 192.168.24.62
+
+-- INFORMATICA --
+ip 192.168.24.193/26 192.168.24.254
+
+--ESW2--
+conf t
+vlan 10 
+name RHUMANOS
+vlan 20
+name CONTABILIDAD
+vlan 30
+name VENTAS
+vlan 40 
+name INFORMATICA
+exit
+
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/1
+switchport mode access
+switchport access vlan 30
+
+int f1/2
+switchport mode access
+switchport access vlan 20
+
+int f1/3
+switchport mode access
+switchport access vlan 10
+
+int f1/4
+switchport mode access
+switchport access vlan 40
+exit
+exit
+write
+
+--ESW1--
+conf t
+vlan 10 
+name RHUMANOS
+vlan 20
+name CONTABILIDAD
+vlan 30
+name VENTAS
+vlan 40 
+name INFORMATICA
+exit
+
+int f1/0
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/1
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+
+int f1/3
+switchport mode trunk
+switchport trunk allowed vlan 1,10,20,30,40,1002-1005
+exit
+exit
+write
+
+
+
+
+
+
+
+
+--R1
+conf t
+int s2/0
+ip address 10.2.0.1 255.255.255.252
+no shutdown
+exit
+int f0/0
+ip address 10.2.0.9 255.255.255.252
+no shutdown
+end
+
+--R2--
+conf t
+int f0/0
+ip address 10.2.0.10 255.255.255.252
+no shutdown
+exit
+int s2/0
+ip address 10.2.0.17 255.255.255.252
+no shutdown
+end
+
+--R3--
+conf t
+int s2/1
+ip address 10.2.0.5 255.255.255.252
+no shutdown
+exit
+int f0/0
+ip address 10.2.0.13 255.255.255.252
+no shutdown
+end
+
+--R4--
+conf t
+int f0/0
+ip address 10.2.0.14 255.255.255.252
+no shutdown
+exit
+int s2/1
+ip address 10.2.0.21 255.255.255.252
+no shutdown
+end
+
+--R5--
+conf t
+int f0/0.10
+encapsulation dot1Q 10
+ip address 192.168.24.62 255.255.255.192
+no shutdown
+exit
+int f0/0.20
+encapsulation dot1Q 20
+ip address 192.168.24.126 255.255.255.192
+no shutdown
+exit
+int f0/0.30
+encapsulation dot1Q 30
+ip address 192.168.24.190 255.255.255.192
+no shutdown
+exit
+int f0/0.40
+encapsulation dot1Q 40
+ip address 192.168.24.254 255.255.255.192
+no shutdown
+exit
+int f1/0
+ip address 10.2.0.2 255.255.255.252
+no shutdown
+exit
+int f2/0
+ip address 10.2.0.6 255.255.255.252
+no shutdown
+end
+
+--R6--
+conf t
+int f0/0.10
+encapsulation dot1Q 10
+ip address 192.168.25.62 255.255.255.192
+no shutdown
+exit
+int f0/0.20
+encapsulation dot1Q 20
+ip address 192.168.25.126 255.255.255.192
+no shutdown
+exit
+int f0/0.30
+encapsulation dot1Q 30
+ip address 192.168.25.190 255.255.255.192
+no shutdown
+exit
+int f0/0.40
+encapsulation dot1Q 40
+ip address 192.168.25.254 255.255.255.192
+no shutdown
+exit
+int s2/0
+ip address 10.2.0.18 255.255.255.252
+no shutdown
+exit
+int s2/1
+ip address 10.2.0.22 255.255.255.252
+no shutdown
+end
+
+
+--R1--
+conf t
+ip route 192.168.24.0 255.255.255.0 10.2.0.2
+ip route 10.2.0.16 255.255.255.252 10.2.0.10
+ip route 192.168.25.0 255.255.255.0 10.2.0.10
+end
+
+--R2--
+conf t
+ip route 192.168.25.0 255.255.255.0 10.2.0.18
+ip route 10.2.0.0 255.255.255.252 10.2.0.9
+ip route 192.168.24.0 255.255.255.0 10.2.0.9
+end
+
+--R3--
+conf t
+ip route 192.168.24.0 255.255.255.0 10.2.0.6
+ip route 10.2.0.20 255.255.255.252 10.2.0.14
+ip route 192.168.25.0 255.255.255.0 10.2.0.14
+end
+
+--R4--
+conf t
+ip route 192.168.25.0 255.255.255.0 10.2.0.22
+ip route 10.2.0.4 255.255.255.252 10.2.0.13
+ip route 192.168.24.0 255.255.255.0 10.2.0.13
+end
+
+--R5--
+conf t
+ip route 10.2.0.8 255.255.255.252 10.2.0.1
+ip route 10.2.0.12 255.255.255.252 10.2.0.5
+ip route 10.2.0.16 255.255.255.252 10.2.0.1
+ip route 10.2.0.20 255.255.255.252 10.2.0.5
+ip route 192.168.25.0 255.255.255.0 10.2.0.1
+ip route 192.168.25.0 255.255.255.0 10.2.0.5
+end
+
+--R6--
+conf t
+ip route 10.2.0.8 255.255.255.252 10.2.0.17
+ip route 10.2.0.12 255.255.255.252 10.2.0.21
+ip route 10.2.0.0 255.255.255.252 10.2.0.17
+ip route 10.2.0.4 255.255.255.252 10.2.0.21
+ip route 192.168.24.0 255.255.255.0 10.2.0.17
+ip route 192.168.24.0 255.255.255.0 10.2.0.21
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--R2--
+conf t
+int f0/0
+standby 1 ip 10.2.0.9
+standby 1 priority 150
+standby 1 preempt
+end
+
+--R4--
+conf t
+int f0/0
+standby 1 ip 10.2.0.13
+end
+
+
+
+--R1--
+conf t
+int f0/0
+glbp 1 ip 10.2.0.10
+glbp 1 preempt
+glbp 1 priority 150
+glbp 1 load-balancing round-robin
+end
+
+--R3--
+conf t
+int f0/0
+glbp 1 ip 10.2.0.14
+glbp 1 load-balancing round-robin
+end
+
