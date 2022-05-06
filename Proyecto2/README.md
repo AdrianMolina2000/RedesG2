@@ -16,3 +16,11 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ### Topologia 1
 ![](img/TP1.png "TP1")
 
+## Cloud1_topologia 1
+![](img/tp1_c1.png "c1_tp1")
+## Cloud1_topologia 2
+![](img/tp1_c2.png "c2_tp1")
+## Cloud1_topologia 3
+![](img/tp1_c3.png "c3_tp1")
+## Cloud1_topologia 4
+![](img/tp1_c4.png "c4_tp1")
