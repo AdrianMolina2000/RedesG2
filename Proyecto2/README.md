@@ -34,3 +34,10 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp1_r3.png "r3_tp1")
 ### R4 topologia 1
 ![](img/tp1_r4.png "r4_tp1")
+
+### Tabla resultante:
+|Subred | No. de Hosts | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast|
+|-----|-----|-----|-----|-----|-----|-----|
+
+
+
