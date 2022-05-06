@@ -85,3 +85,6 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp3_rrhh1.png "info_tp3")
 ### -Ventas
 ![](img/tp3_ventas1.png "info_tp3")
+
+### Router
+![](img/tp3_router6.png "r6_tp2")
