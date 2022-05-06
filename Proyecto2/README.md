@@ -36,7 +36,7 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp1_r4.png "r4_tp1")
 
 ### Tabla resultante:
-|Subred | No. de Hosts | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast|
+|Subred | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast| No. de Hosts |
 |-----|-----|-----|-----|-----|-----|-----|
 
 
