@@ -71,3 +71,7 @@ Haciendo subnetting ya sea FLSM o VLSM.
 
 ### Topologia 3
 ![](img/tp3.png "TP3")
+### Cloud1 topologia 3
+![](img/tp3_cloud1.png "c1_tp3")
+### Cloud2 topologia 3
+![](img/tp3_cloud2.png "c2_tp3")
