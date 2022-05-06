@@ -56,3 +56,7 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp2_rrhh.png "info_tp2")
 ### -Ventas
 ![](img/tp2_ventas.png "info_tp2")
+
+### Router topologia 2
+### R5
+![](img/tp2_router.png "r5_tp2")
