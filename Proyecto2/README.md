@@ -69,3 +69,5 @@ Haciendo subnetting ya sea FLSM o VLSM.
 |Subred | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast| No. de Hosts |
 |-----|-----|-----|-----|-----|-----|-----|
 
+### Topologia 3
+![](img/tp3.png "TP3")
