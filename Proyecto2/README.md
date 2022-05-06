@@ -40,5 +40,5 @@ Haciendo subnetting ya sea FLSM o VLSM.
 |-----|-----|-----|-----|-----|-----|-----|
 
 ### Topologia 2
-![](img/TP2.png "TP2")
+![](img/tp2.png "TP2")
 
