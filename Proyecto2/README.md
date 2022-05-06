@@ -92,5 +92,6 @@ Haciendo subnetting ya sea FLSM o VLSM.
 ![](img/tp3_tr.png "esw2_tp3")
 ### VLANS
 ### Tabla resultante:
+![](img/tp3_vlans.png "vlan_tp3")
 |Subred | IP de red |Mascara | Primer Host | Ultimo Host|Broadcast| No. de Hosts |
 |-----|-----|-----|-----|-----|-----|-----|
