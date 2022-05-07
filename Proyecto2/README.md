@@ -37,6 +37,7 @@ Haciendo subnetting ya sea FLSM o VLSM.
 
 ### Tabla resultante:
 | Network | Mask | P.Asignable | U.Asignable | Broadcast | Host Totales | Cantidad de host |
+|-----|-----|-----|-----|-----|-----|-----|
 | 10.2.0.0/30 | 255.255.255.252 |10.2.0.1 | 10.2.0.2 | 10.2.0.3 | 2 | 2 | 
 | 10.2.0.4/30 | 255.255.255.252 |10.2.0.5 | 10.2.0.6 | 10.2.0.7 | 2 | 2 |
 | 10.2.0.8/30 | 255.255.255.252 |10.2.0.9 | 10.2.0.10 | 10.2.0.11 | 2 | 2 |
